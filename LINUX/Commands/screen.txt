@@ -1,0 +1,74 @@
+screen is a terminal multiplexer
+ sudo apt-get install screen
+
+
+1. Commands
+  
+	1. screen - IT will start it and press enter for initilaizing it 
+
+        !-- So, by default every command is prefix by ctrl + a
+
+	2. ctrl + a + d - It will detach your screen session
+
+        3. screen -ls -- It will list the sessions where you detached from.
+           i.e -- There is a screen on:
+             3586.pts-1.Quantum	(04/06/2021 11:39:22 AM)	(Detached)
+             1 Socket in /run/screen/S-crypto.
+
+ 	4. ps -e | grep 3586 -- For knowing what is going on in pid number 3586.
+	
+	5. screen -S secondscreensession -- It will create new screen session.
+
+	6. ctrl + a + d - For detaching the screen session.
+
+	7. screen -r -- IT will reattach the screen-session to your pid based
+	   session.
+
+	8. screen -X -S -- X will send the command -S demand for screen session
+	  name or pid number. the whole command is used for send the message to
+	  the specifc screen session. i.e -- screen -X -S 3586 quit
+
+	9. ctrl + a + k -- It will kill the current screen session.Listen 
+	 carefully first you have to slighly hold the ctrl + a and then 
+         ubrelease it and in a between 400ms press k. It will work otherwise
+         it's not gonna work.
+
+	10. ctrl + shift + A :quit -- It will open a esc vim kind of type :quit
+           for  quit or killing the session
+
+	11. ctrl + a - p -- for moving previous in screen session.
+
+	12. ctrl + a - n -- for moving to the next screen session.	
+
+	13. ctrl + a - w -- for knowing how many windows are in one session.
+
+	14. ctrl + a - c -- for creating new window in session.
+
+	15. ctrl + a - \ -- IT will delete all the windows.
+
+	16. ctrl + a - [window number] -- It will reattach you to a specific 
+	 window depends on your window number.
+
+	17. ctrl + a - ' -- you can move to specific window by typing window 
+		number.
+
+	18. ctrl + a - shift + ' -- IT will open a kina of gui selector to 
+	  select your window.
+
+	19. ctrl + a - shift + a -- type name you want to window title.
+
+	20. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

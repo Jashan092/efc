@@ -1,0 +1,21 @@
+from tkinter import * 
+def func():
+    print("I am naughty function")
+root = Tk()
+root.geometry('1000x500')
+mainmenu = Menu(root)
+root.config(menu=mainmenu)
+m1 = Menu(mainmenu,tearoff=0)
+m1.add_command(label="New Project", command=func)
+m1.add_command(label="Save", command=func)
+m1.add_separator()
+m1.add_command(label='Save as...',command=func)
+mainmenu.add_cascade(label='File',menu=m1)
+m2 = Menu(mainmenu)
+m2.add_command(label="cut")
+m2.add_command(label="copy")
+m2.add_command(label="Delete")
+m2.add_command(label="Breachs")
+mainmenu.add_cascade(label="Sys",menu=m2)
+
+root.mainloop()

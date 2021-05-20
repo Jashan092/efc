@@ -1,0 +1,13 @@
+from tkinter import * 
+root = Tk()
+root.geometry('655x333')
+frame = Frame(root,bg='grey',borderwidth=6,relief=SUNKEN)
+frame.pack(side=LEFT,fill=Y)
+l = Label(frame,text="Project ~ 1",pady=5)
+l.pack(padx=4)
+frame2 = Frame(root,bg='grey',borderwidth=6,relief=SUNKEN)
+frame2.pack(fill=X)
+l2 = Label(frame2,text='Project ~ 2',pady=7)
+# l2.pack()
+l2.pack(pady=8, padx=8)
+root.mainloop()

@@ -1,0 +1,32 @@
+APT 
+Basically apt is the advanced versioin of dpkg 
+When we use dpkg we have resolve dependencies for solving this they make apt tool 
+The full form of apt is Advanced Package Tool 
+apt uses repositories for resolving dependencies
+The repositories are saved in /etc/apt/sources.list
+deb http://us.archive.ubuntu.com/ubuntu/ focal main restricted
+This is an example of repositoy that are stored in /etc/apt/sources.list
+
+deb - This is called archive
+http://us.archive.ubuntu.com/ubuntu/ - This is location of the server we call it mirror
+focail - This is called branch 
+and after this all are component
+
+1. sudo apt update -  This will check all the packages that listed in server and if any package listed on server not installed in system it will bookmark it and save it in file or list
+
+2. sudo apt install - It will install the packages from the repositories
+
+3. sudo apt reinstall - It will reinstall the package
+
+4. sudo apt source [package name] - It will give the source of the package like mirror link
+
+5. sudo apt edit-sources - first it will ask you text editor where you wanna open this. Second it will open the /etc/apt/sources.list for the configuration of server or mirror
+
+6. sudo apt upgrade - It will dowwnload upgraded version of all the packages.
+
+7. sudo apt full-upgrade - It will also upgrade the distribution sources
+
+8. sudo apt dist-upgrade - It will also upgrade the distribution.
+
+9. sudo apt install kali - You can install kali :-) 
+

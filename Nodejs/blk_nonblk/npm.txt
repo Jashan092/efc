@@ -1,0 +1,7 @@
+npm 
+The full form os npm is Node package manager
+it is a package manager of Node it containers online packages 
+npm -G it will save the module globally 
+npm --save-dev it will make dev dependecy 
+npm init 
+it will make package.json file of your work

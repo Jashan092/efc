@@ -1,0 +1,12 @@
+EDR 
+What is EDR? 
+There are two types of edr's 
+some of them are prefeed as next genration antivirus
+Basically it detects the endpoint detection respind back
+IT can catch malware ransomware playload
+it is able to things like behavior analytics. ML etc...
+autmation respond product 
+It is kinda boilerplate security software
+1. remote forensics
+2. threat hunting 
+		

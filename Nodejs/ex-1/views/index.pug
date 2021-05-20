@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style 
+            include style.css
+        title Form
+    body 
+        header 
+            #topheading
+                h1 Phone List
+        section 
+            form#form-1(action="/select_database", method="post") 
+                h3 Database
+                input#text(type="text", name="dbname", placeholder="Enter the name of Database",d)
+                P: button.btn(type="submit") Add new database 
+
+            form#form-2(action="/add_name_num", method="post") 
+                h3 New Contact
+                p Name 
+                input#text(type="text", name="name" , placeholder="Enter name")
+                p: input#number(type="number", name="number", placeholder="Enter Phone Nsumber")
+                p: button.btn(type="submit") Add new contact s
+            
+            form#form-3(action="/search_user", method="post") 
+                h3 Search Contact
+                p Name
+                input#name(type="text", name="name", placeholder="Enter name")
+                p: input#number(type="number", name="number" placeholder='Ente number')
+                p: button.btn(type="submit") Search Contact
+
+            form#form-4(action="/delete_contact", method="post") 
+                h3  Delete contact
+                input#name(type="text", name="name" placeholder='Enter name')
+                p: input#number(type="number", name="number" placeholder='Enter phone number')
+                p: button.btn(type="submit") Delete User
+
+
+

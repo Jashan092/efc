@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0pc;
+            box-sizing: border-box;
+            /* color: white; */
+            font-family: cursive;
+        }
+        body::before{
+            content: "";
+            background: url('https://media.istockphoto.com/photos/got-a-problem-contact-us-picture-id1129113667?k=6&m=1129113667&s=612x612&w=0&h=uw_vb53_uxej3Bn7mh-qZCL_xzKXdAtFL2Piw7IRrYQ=') no-repeat center center/cover;
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            top: 0px;
+            filter: brightness(20%);
+            z-index: -1;
+        }
+        .in{
+            display: block;
+        }
+        #maintext{
+            text-align: center;
+            font-size: 4rem;
+            color: white;
+            font-family: monospace;
+            padding-top: 20px;
+        }
+        #form-group{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+        #form-group input[type='text'],#form-group input[type='email'],#form-group input[type='number']{
+            margin-top: 20px;
+            padding-right: 400px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+        }
+        #form-group input[type='text']:active,#form-group input[type='email']:active,#form-group input[type='number']:active{
+            border: 2px  solid blue;
+            outline: blue;
+        }
+    
+        #gen{
+            font-weight: 900;
+            font-size: 1.2rem;
+            padding-right: 370px;
+            padding-top: 20px;
+            color: white;
+        }
+        #cond{
+            padding-right: 400px;
+            color: white;
+            padding-top: 20px;
+        }
+        #btn{
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            background-color: teal;
+            border-radius: 10px;
+            color: white;
+            font-weight: 900;
+            transition-duration: 0.5s;
+            border: 2px solid white;
+        }
+        #btn:hover{
+            background-color: rgb(3, 92, 92);
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section id="maintext">Contact Us</section>
+        <form action="/form-post" id="form-group" method="POST">
+            <input class="in" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="in" type="number" name="num" id="num" placeholder="Enter your number">
+            <input class="in" type="email" name="email" id="email" placeholder="Enter your email">
+            <div id="gen">
+                Gender Male
+                <input type="radio" name="Gender" id="Gender">
+                Female
+                <input type="radio" name="Gender" id="gender">
+            </div>
+            <div id="cond">
+                <input type="checkbox" name="cond" id="cond" checked>
+                Terms and conditions
+            </div>
+            <button type="submit" id="btn" name="submit">Submit</button> 
+        </form>
+    </main>
+</body>
+</html>

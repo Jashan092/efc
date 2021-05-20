@@ -1,0 +1,24 @@
+awk options 'selection_criteria {action} ' input-file > output-file
+
+1. -f ---> read argument from the file instead of command line
+
+2. -F fs ---> use it for input field seprator.
+
+3. awk '{awk}' It will <filename> ---> It will print the content of the file.
+
+4. awk '/manager/ {print} <filename> ---> It will print the content which only contains 'manager' string.
+
+5. awk '{print $1,$4}' <filename> ---> $1 means vertically charactors, $4 means horizontly charactors It will select the certain text and print
+
+6. awk '{print $0}' <filename> ---> $0 means whole line it can be vertically or horizontolly
+
+7.  awk '{print NR,$0}' test_awk.txt ---> NR ~ It will print the number id by line number
+        Like This:
+        1 Jashan you are the best. you are the superior. you are the savior of this world
+        2 .
+        3 manager of the world
+        4 signma of theta
+        5 manager of theme park
+        6 delta
+
+8.

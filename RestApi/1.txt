@@ -1,0 +1,47 @@
+NOTES FOR THE REST API 
+I AM TAKING THIS STUFF FROM A BOOK O'REILLY' REST API
+
+ ~KEYWORDS 
+	1. WEB RESOURCE MODELING LANGUAGE (WRML)
+
+
+	~ STATUS CODES
+	  1. 200 ok
+	  2. 201 CREATED
+          3. 202 ACCEPTED
+          4. 204 NO CONTENT
+          5. 301 MOVED PERMANENTLY
+          6. 302 FOUND
+          7. 303 SEE OTHER
+          8. 304 NOT MOIFIED
+          9. 307 TEMPORAY REDIRECT
+          10. 400 BAD REQUEST
+          11. 401 UNAUTHORUZED ACCESS
+          13. 403 FORBIDDEN
+          14. 404 NOT FOUND
+          15. 405 METHOD NOT ALLOWED
+          16. 406 NOT ACCEPTABLE
+          17. 409 CONFILCT
+          18. 412 PRECONDITION FAILED
+          19. 415 UNSUPPORTED MEDIA TYPE 
+          20. 500 INTERNAL SERVE ERROR
+
+REPRESENTATIONAL STATE TRANSFER (REST)
+A REST APPLICATION PROGRAMMING INTERFACE (REST API) IS A TYPE OF A WEB SERVER THAT ENABLES CLIENT
+
+uniform interface - interface control the display for the user 
+it make a easy communication with user 
+what is network interface in computer networking in the dynamics of the all computer world wide web of the internet of the world WW1 I am Jashan :):D 
+Nice to meet you,Jashan. Wish you a very bright future. and the important thing don't forgive :o OK? 
+ I hope you understand...
+
+
+
+
+
+
+
+
+
+
+

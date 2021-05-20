@@ -1,0 +1,13 @@
+The meaning of the ssh is Secure SHell. ssh is used for secure communication between two nodes. SSH is a improved version of telnet. 
+ssh makes secure tunnel between client and server or and two nodes. 
+ssh is also used for remote logins and remote commands facilities. like ---> rsh,rlogin,telnet.
+but ssh is above all ssh encrypts traffic in both directions 
+
+Compression: traffic may be optionally compressed at the stream level.
+	• Public key authentication: optionally replacing password authentication.
+	• Authentication of the server: making ”man-in-the-middle” attack more difficult
+	• Port forwarding: arbitrary TCP sessions can be forwarded over an SSH connection.
+	• X11 forwarding: SSH can forward your X11 sessions too.
+	• File transfer: the SSH protocol family includes two file transfer protocols.
+	
+

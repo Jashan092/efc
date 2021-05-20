@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "*.php": "php",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "emojisense.languages": {
+
+        "markdown": true,
+        "plaintext": {
+            "markupCompletionsEnabled": false,
+            "emojiDecoratorsEnabled": false
+        },
+        "scminput": true,
+        "git-commit": true
+    },
+    "editor.fontFamily": "'arial'"
+}

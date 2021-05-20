@@ -1,0 +1,10 @@
+from tkinter import *
+root = Tk()
+root.geometry('500x300')
+lb1 = Label(text="Youtube Video Downloader",font="Ariel 18 bold").pack()
+frame = Frame()
+frame.pack()
+lb2 = Label(Frame,text="Video URL: ",font='Ariel 10 bold').pack(padx=20,anchor='w',pady=20)
+url = StringVar()
+lb2en = Entry().pack(anchor='n',side=TOP)
+root.mainloop()

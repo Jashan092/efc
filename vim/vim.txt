@@ -1,0 +1,4 @@
+Vim (Visual Improved) is a code editor.
+why use vim?
+	well if you work with unix,linux you can't avoid this it will help you in server programming and more
+Vim have 3 main modes ~ noramal mode , insert mode and visual mode

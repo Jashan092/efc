@@ -1,0 +1,9 @@
+GUI (GRAPHICAL USER INTERFACE) is a collection of packed vists.
+gui is easy to use 
+how tkinter works? 
+example windows windows give their win32 api's to make gui's to devlopers 
+For this reasons we can use cross-platform softwares.
+basically tkinter work with win32.linux api and more 
+we can make cross-platform-gui's with the help of tkinter.
+
+1. 

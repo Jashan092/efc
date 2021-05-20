@@ -1,0 +1,51 @@
+dpkg is a linux package manager
+It is used for managing packages in linux 
+
+1. dpkg -l 
+	It will list all the packages that are installed in the system
+
+2. dpkg -l | grep  [package name]
+	you can search package by this
+
+3. dpkg -s [package name]
+	This is used for collecting information about any package 
+
+4. dpkg -s [package name] | head or tail
+
+5. dpkg -L [package name] 
+	This will tell all the files of a package
+
+6. dpkg -S [package name] 
+	Same as -L 
+
+7. dpkg -p [package name]
+	It will tell some system information about the file
+
+8. dpkg --info [deb package]
+	It will tell the all information of the deb package like chrome.deb,vscode.deb
+
+9. dpkg -c [package name]
+	It will tell the all files that are in the package
+
+10. dpkg -R  --install [folder location]
+	It will install the deb files that are in the folder
+
+11. dpkg -r [package name]
+	It will remove the package
+
+12. dpkg -P [package name]
+	It will purge the package. I mean it will delete all the files, backup files of a package
+
+13. dpkg -V [package name]
+	You can check by this command package is installed or not
+ 
+
+
+
+
+
+
+
+
+
+	

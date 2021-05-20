@@ -1,0 +1,2 @@
+This is 1 added once by php write function
+This is being appended to the file

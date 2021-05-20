@@ -1,0 +1,5 @@
+1. What is WAMP,MAMP and LAMP ? 
+1: WAMP --> Windows,Apache,MySQL,PHP , MAMP --> MAC,Apache,MySQL,PHP LAMP --> LINUX,Apache,MySQL,PHP
+
+
+

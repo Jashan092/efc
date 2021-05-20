@@ -1,0 +1,60 @@
+chapter 5 
+	1. keypoints of website 
+	 how website works 
+	  what's behind the website? 
+	  general website works with the help of PHP,MySQL,HTML,CSS,JavaScript
+	  
+	  new things in html5 ---> MathML(Math Markup Language), SVG(Scalable Vector Graphics), <canvas> tag. 
+	  RSS ---> Really Simple Syndication feeds for SEO 
+	  PHP module GD(Graphics Draw)
+	  
+	  
+Overview Questions
+
+1. What four components at the minimum are needed to create a fully dynamic web page? 
+Ans 1: html,php,mysql,apache
+
+2. what does HTML stand for? 
+Ans 2: Hyptertext Markup Language
+
+Ans:3 Structured Query Language
+
+Ans:4 PHP is server site scripiting language and JavaScript is clientside scripting language but we can also use javascript in backend.
+
+And:5 Cascade Styling Sheet
+
+Ans:6 <audio> <video> <canvas> <MathML> 
+
+Ans:7 I can fix it by restarting my sevver or changing in my DOM or Solving problem in any javascript or PHP 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

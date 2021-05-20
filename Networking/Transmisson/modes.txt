@@ -1,0 +1,22 @@
+There are 3 types of main modes to trasnmisson the data
+
+	1. Simplex
+	2. Half Duplex
+	3. Full Duplex
+		
+
+        		Sender -----------> Receiver
+
+1. SIMPLEX MODE ~ In this only one can send the data and only one can receive 
+like SENDER AND RECEIVER. i.e - F.M Receiver , T.V Receiver.
+
+	       -----------------> 
+        Sender                    Receiver
+	       <-----------------
+
+2. Half duplex ~ In this sender and receiver both send data but not in one way
+like. at a time only one operation can be handled sending or receiving only one operation at a time. i.e - Ethernet , 4G without voLTE. 
+
+
+
+3. Full Duplex Mode ~ In this both sender and receiver can retreive data at a time. like at a time both can send and receive data. i.e - switch, Internet.

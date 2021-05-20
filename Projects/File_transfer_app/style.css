@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --main-bg-color: #eff5fe;
+    --border-color: #0288d147;
+}
+body,html{
+    font-family: -apple-syste   m, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--main-bg-color);
+    height: 100vh;
+
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+body .drop-zone{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.upload-container{
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 20px 20px #0000002e;
+}
+.drop-zone{
+    width: 500px;
+    min-height: 200px;
+    border: 2px solid var(--border-color);
+    margin: 30px ;
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+.dragged.drop-zone{
+    background-color: var(--main-bg-color);
+    border-color: blue;
+}
+.icon-container{
+    width: 75px;
+    position: relative;
+    height: 100px;
+}
+.icon-container img{
+    width: 75px;
+    position: absolute;
+    transform-origin: bottom;
+    transition: transform 250ms ease-in-out;
+}
+.icon-container .right , .icon-container .left{
+    filter: grayscale(.5);
+}
+.icon-container .center{
+    z-index: 2;
+}
+.dragged .icon-container .right{
+    transform: rotate(10deg) translateX(20px) scale(.8);
+}
+.dragged .icon-container .left{
+    transform: rotate(-10deg) translateX(-20px) scale(.8);
+}
+.dragged .icon-container .center{
+    transform: translateY(-5px);
+}
+
+#fileinput{
+    display: none;
+}
+.browse-button{
+    color: rgb(16, 143, 247);
+}
+.browse-button:hover{
+    color: blue;
+}
+.browse-button:hover:active{
+    color: yellow;
+}

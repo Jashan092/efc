@@ -1,0 +1,221 @@
+.container {
+    background-color: #e3ebef;
+}
+
+.container p {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.container h1 {
+    font-family: arial;
+    font-size: 53px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #e3ebef;
+    padding: 10px 55px;
+    font-family: arial;
+    font-weight: 500;
+    height: 359px;
+    color: #000000c7;
+    border: 1px solid black;
+    width: 1029px;
+    border-radius: 10px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: #2196f3;
+    padding: 15px 17px;
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container a:hover {
+    background-color: #1585de;
+}
+
+body {
+    height: 1000px;
+}
+
+.main h1 {
+    font-family: arial;
+    text-align: center;
+    font-size: 44px;
+    margin-top: 68px;
+    color: #002e52;
+}
+
+.questions figure {
+    font-family: arial;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    color: #000000c2;
+}
+
+.questions {
+    font-family: arial;
+    font-weight: 900;
+    background-color: #dfeaf3;
+    padding: 22px 0px;
+    padding-left: 50px;
+    border-radius: 6px;
+    width: 1097.3px;
+    ;
+    height: auto;
+    margin: 10px auto;
+}
+
+.questions img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.questions a {
+    margin: 0px;
+    margin-left: 61px;
+    color: blue;
+    display: block;
+}
+
+.questions a:hover {
+    text-decoration: underline;
+}
+
+.questions p {
+    margin-left: 60px;
+    color: #000000fa;
+}
+
+.askquest img {
+    float: left;
+    clear: both;
+}
+
+.askquest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: arial;
+    font-weight: 900;
+    background-color: #dfeaf3;
+    padding: 21px 42px;
+    border-radius: 6px;
+    width: 1135.3px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.askquest figure {
+    font-family: arial;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 62px;
+    margin-bottom: 5px;
+    color: #000000c2;
+}
+
+input[type=text] {
+    display: block;
+    height: 12px;
+    width: 361px;
+    margin-left: 62px;
+    left: 45px;
+    padding: 10px;
+    box-shadow: 1px 2px 7px 1px transparent;
+    border: transparent;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.askquest textarea {
+    font-weight: 900;
+    height: 71px;
+    width: 363px;
+    padding: 10px;
+    margin-left: 62px;
+    margin-top: 7px;
+    box-shadow: 1px 2px 7px 1px transparent;
+    border: transparent;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type='text']:focus {
+    box-shadow: 1px 2px 7px 1px #097fdc;
+    outline: none;
+    border: transparent;
+}
+
+.askquest textarea:focus {
+    box-shadow: 1px 2px 7px 1px #097fdc;
+    outline: none;
+}
+
+.askquest a {
+    text-decoration: none;
+    color: white;
+    background: #009688;
+    font-weight: 900;
+    font-family: arial;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+    position: relative;
+    outline: none;
+    border: transparent;
+    left: -118px;
+}
+
+.askquest a:hover {
+    transition-duration: 0.3s;
+    background: #298077;
+}
+.askquest button {
+    text-decoration: none;
+    color: white;
+    background: #009688;
+    font-weight: 900;
+    font-family: arial;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+    position: relative;
+    outline: none;
+    border: transparent;
+    left: -118px;
+}
+
+.askquest button:hover {
+    transition-duration: 0.3s;
+    background: #298077;
+}
+
+.questions span {
+    float: right;
+    clear: both;
+    padding: 0px 26px;
+    position: relative;
+    top: -59px;
+}

@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    background-color: red;
+    margin: auto;
+    height: 50vh;
+    overflow: scroll;
+}
+
+.message {
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+}
+#messageinp{
+    width: 63%;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 70px;
+}

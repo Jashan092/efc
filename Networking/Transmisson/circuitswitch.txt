@@ -1,0 +1,32 @@
+BEFORE READING CIRCUIT SWITCHING IS OLD TECHNOLOGY WAS FAMOUS IN 90s NOW WE USE PACKET SWITCHING LIKE IN TELEPHONES
+
+      PL = Physical Links
+		         ______         _____        _____
+			|      |       |     |	    |     |
+			|      |  PL   |     |  PL  |     |
+		        |      | ______|     |______|     |--------> Receiver
+   Sender----------->	|      |       |     |      |     |  Connected
+			|      |       |     |      |     |
+			|______|       |_____|      |_____|
+                       _____________________________________
+                              	    SETUP TIME
+
+TIME TAKEN TO ESTABLISH CONNECTION IS CALLED SETUP TIME.
+TIME TAKEN TO PUT DATA ON OUTGOING TRANSMISSON IS CALLLED TRANSMISSON TIME.
+TIME TAKEN TO MOVE ONE END TO ANOTHER END IS CALLED PROPAGATION TIME.
+CIECUITING SWITCHING USE INLINE PROCEDURE OR INORDER
+THE TIME TAKE TO TEAR DOWN OR CLOSE THE CONNECTION IS CALLED TRAR DOWN.
+
+YOU CAN FIND THE TOTAL TIME BY SUBTOTALING THE ALL 
+
+	SETUP TIME + TRANSMISSION TIME + PROPGATION TIME + TEAR DOWN TIME = TIME
+
+
+
+
+
+
+
+
+
+

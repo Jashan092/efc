@@ -1,0 +1,24 @@
+#exhebit_a span ,#exhebit_b div span, #exhebit_c span, #exhebit_d span{
+    font-size: 30px;
+    text-align: center;
+}
+
+#exhebit_a h1 ,#exhebit_b div h1, #exhebit_c h1, #exhebit_d h1{
+    font-size: 30px;
+    text-align: center;
+}
+#exhebit_a p ,#exhebit_b div p, #exhebit_c p, #exhebit_d p{
+    font-size: 10px;
+    text-align: center;
+    padding: 0px 20px;
+}
+#exhebit_a span ,#exhebit_b div span, #exhebit_c span, #exhebit_d div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    padding-left: 0px;
+    padding-left: 80px;
+}

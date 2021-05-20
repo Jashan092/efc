@@ -1,0 +1,7 @@
+cut command is used to any records using charactors and fields from any file or from any command output 
+~ if you want to cut the output like you want to see how many [a] are in your output
+syntax - command name | cut <option>
+	-c ~ cut by charactors 
+	-f ~ cut by fields 
+	!~ we can't use this command ithout define the 	delimeter 
+	-d ~ define the delimeter symbol it can be anything [: , "] we can use amu symbol

@@ -1,0 +1,145 @@
+1. What is Database ? 
+    Database is a collection of data{or information) stored in a format that can     easily ve accessed.
+
+2. What is DBMS? 
+   DBMS{Database Management System) isn't the actual Database. But in order to
+   create/manage the Database we need a software Application that is DBMS.
+    PROS ~ 
+           1. Make it easy to store large amount of data.
+	   2. Import/Exports of data.
+ 	   3. Security,Backups etc...
+           4. Any DBMS isn't the actual Database. But in order to create/manage
+	      the Database we need a software Application that is DBMS.
+
+                QUERY ---------------------------> Database
+
+3. There are 2 types of DBMS
+	1. SQL  (Structured Query Language)
+	2. MYSQL (Not Only SQL)
+	
+          1. SQL ~ 1 SQL databases are pimarliy called as Relational Databases
+		    (RDBMS).
+		   2. SQL databases are table-based databases.
+		   3. SQL databases are vetically scalable.
+		   4. Oracle,Postgres,MS-SQL etc..
+		   5. It have coumns and rows or fiels and records.
+       
+          2. NO-SQL ~ 1. NoSQL databases are primarily called as Non-relational
+	                 or distributed-database
+                      2. NoSQL databases are document based, key-value pairs,
+			 Graph databases.
+		      3. NoSQL databases are horizontlly scalable.
+ 		      4. MongoDB,Redis,Neo4j,Cassandra etc...
+		      5. Mostly in JSON format.
+	  i.e - SELECT * FROM Users WHERE Age >= 16;
+
+
+4. Install xampp and configure 
+   commands for setting up the mysql 
+	1. mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+	2. mysql> FLUSH PRIVILEGES;
+	3. mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+	4. config file of mysql /opt/lampp/phpmyadmin/config.inc.php
+	
+
+5. Commands 
+   1. show databases;
+   2. create database <Database Name>;  ---> for creating database
+   3. drop database <database name>;   ---> For deleting database
+   4. use <database name>;  ---> For selecting database
+  
+6. Datatypes 
+
+ R
+ E                      FIELDS
+ C   Name         Class         R.No.        School_name
+ O   Jashan         5            1             Sarvhit
+ R   Preet          8            5               Kari
+ D   Singh          10           15             Vidya 
+ S
+    Name: String, Class: Number, R.NO.: Number, School_name: String
+
+
+Datatypes:
+
+	Numberic Types         String Types        Data Types For Time
+	 1. INT                1. CHAR                 1. DATE
+	 2. SMALLEST           2. VARCHAR              2. DATETIME 
+	 3. TINYINT            3. BINARY               3. TIMESTAMP
+	 4. MEDIUMINT          4. VARBINARY            4. TIME
+         5. BIGINT             5. BLOB                 5. YEAR 
+	 6. DECIMAL            6. TINYBLOB
+	 7. NUMERIC            7. MEDIUMBLOB
+	 8. FLOAT              8. LONGBLOB
+	 9. DOUBLE             9. TEXT
+	 10. BIT               10. TINYTEXT
+                               11. MEDIUMTEXT
+                               12. LONGTEXT 
+                               13. ENUM 
+
+
+     1. int ~ A norma-sized inege that can be signed or unsigned.
+              Range is from 0 to 4294967295. up to 11 digits.
+               Ex: -1,0,1,55,-9999, Any Whole NUmber
+     
+     2. varchar ~ A variable-length string between 1 and 255 characters in 
+	length. For example, VARCHAR(25). You must define a length. Ex: 'T'
+        , 'Thapa','5656','-5555','I am the best'	
+
+     3. Date ~ A date in YYYY-MM-DD format, between 1000-01-01 and 9999-12-31.
+	For example, July 15th,1994 would be stored as 1994-07-15	
+
+
+7. Creating Tables ~
+ 1.  CREATE TABLE <tablename> 
+
+	{  
+   	  column_name data_type,
+   	  column_name data_type
+	);
+  
+ 2. show tables; ~ It will show tables 
+       i.e - 
+	     +----------------+
+	     | Tables_in_Mong |
+             +----------------+
+             | studentdemo    |
+             | students       |
+             +----------------+
+
+ 
+ 3. desc <tablename> ~ It will show the information of fields and records in 
+		       table.
+
+	i.e - 
+
+		+-------+-------------+------+-----+---------+-------+
+		| Field | Type        | Null | Key | Default | Extra |
+		+-------+-------------+------+-----+---------+-------+
+		| name  | varchar(55) | YES  |     | NULL    |       |
+		| age   | int(11)     | YES  |     | NULL    |       |
+		+-------+-------------+------+-----+---------+-------+
+  		    
+4. show columns from <database name>; ~ It will also give the same ouput like 
+      desc <table name>.		      
+
+
+
+5. drop <table name>; ~ used for deleting the table.
+
+6. insert into <table_name> (column1, coulmn2) values (value1,value2); -
+   In this way you can select coumns consecutively but in other way you have to
+   do acording to you table default coulumn structure.
+
+7. insert inser into students values (13,'JASHAN', 10)
+
+8. select * from work1  ~ it will show the data that is stored in table.
+
+9. show warnings ~ For showing warnings.
+
+
+
+
+
+
+

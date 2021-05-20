@@ -1,0 +1,28 @@
+:root{
+    --navbar: #0e1724;
+    --blue-button: #007fed;
+    --success: rgba(255, 145, 0, 0.795);
+    --oceangreen: #212121;
+    --hosm: #2EBE7E;
+    -bpin: #D33B52;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hnav1{
+    width: 100vw;
+    height: 60px;
+    background-color: var(--navbar);
+    display: flex;
+}
+
+#hnav1 p {
+    color: var(--hosm);
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+

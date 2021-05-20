@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+}
+#navbar{
+    background-color: rgba(15, 15, 15, 0.918);
+    height: 73px;
+}
+#navbar > ul{
+    /* padding-top: 6px; */
+    padding-bottom: 10px;
+    font-size: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    /* color: rgba(0, 0, 0, 0.767); */
+    color: rgba(228, 228, 228, 0.931);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section-1{
+    padding-top: 100px;
+}
+input,textarea{
+    display: block;
+}
+textarea{
+    width: 643px;
+    height: 76px;
+    padding: 10px;
+}
+input[type='text']{
+    width: 643px;
+    padding: 8px 10px;
+}
+label:nth-child(2){
+    padding-right: 550px;
+}
+label{
+    margin-top: 10px;
+    padding-right: 510px;
+    padding-bottom: 5px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+input:focus{
+    transition: all 0.2s ;
+    outline: none;
+    box-shadow: 1px 1px 5px #00b7ff;
+}
+textarea:focus{
+    transition: all 0.2s ;
+    outline: none;
+    box-shadow: 2.2px 2px 10px #00b7ff;
+    /* box-shadow: 2px 2px 2px black; */
+}
+form > div{
+    /* text-align: center; */
+    width: 652px;
+    font-size: 29px;
+}
+input,textarea{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnn{
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border: none;
+    padding: 11px 14px;
+    font-size: 21px;
+    border-radius: 4px;
+    background: rgb(0, 0, 197);
+}
+#bt{
+    margin-right: 515px;
+}
+.btnn:hover{
+    background: rgba(0, 4, 255, 0.842);
+    transition-duration: 0.3s;
+}
+.button{
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 60, 255);
+    font-weight: 900;
+}
+.button:active{
+    color: rgb(0, 0, 61);
+}
+.btn2{
+    color: red;
+}
+.btn2:active{
+    color: rgb(148, 0, 0);
+}
+.modal-body{
+    padding-left: 97px;
+    padding-right: 104px;
+}
+.modal-footer{
+    padding: 10px 84px;
+}
+#delform{
+    display: inline-block;
+}

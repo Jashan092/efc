@@ -1,0 +1,6 @@
+laravel is a php based framework that is laragally based on the MVC architecture.
+M - Model --- fetch data and perform CRUD operations.
+V - View --- user interface files.
+C - Controller --- controls the whole process.
+you should use composer to install the laravel.
+composer is like a dependencies manager that controls the packages.

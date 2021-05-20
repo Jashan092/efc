@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#products{
+    margin: 50px 100px;
+    width: 99vw;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-areas: 
+    "pts clb sni opt"
+    ;
+}
+#pts{
+    grid-area: pts;
+    font-size: 10px;
+}
+#clb{
+    grid-area: clb;
+    font-size: 10px;
+}
+#sni{
+    grid-area: sni;
+    font-size: 10px;
+}
+#options{
+    grid-area: opt;
+    font-size: 10px;
+}
+#line{
+    border-left: 2px solid silver;
+    height: 500px;
+    position: absolute;
+    right: 400px;
+    margin-left: -3px;
+    top: 100px;
+}
+.pts_pr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pts.pr:hover{
+    color: blue;
+}
+.pts_pr h1{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin-left: 50px;
+}
+.pts_pr h1:hover{
+    color: blue;
+}
+.pts_pr p{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 50px;
+}
+.pts_pr img{
+    height: 40px;
+    float: left;
+}
+
+#clb_pr_1{
+    margin-top: 10px;
+
+}
+.clb_ptr h1{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    margin-left: 50px;
+}
+.clb_ptr p{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    margin-left: 50px;
+}
+.clb_ptr h1:hover{
+    color: blue;
+}
+}
+.sni_pr p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin-left: 50px;
+}
+.clb_ptr img{
+    height: 40px;
+    float: left;
+}
+.sni_pr h1{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    margin-left: 50px;
+}
+.sni_pr p{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    margin-left: 50px;
+}
+#sni_pr_1 {
+    margin-top: 10px;
+}
+.sni_pr h1:hover{
+    color:blue;
+}
+.sni_pr img{
+    height: 40px;
+    float: left;
+}
+#pts{
+    display: flex;
+    flex-direction: column;
+}
+#clb{
+    display: flex;
+    flex-direction: column;
+}
+#sni{
+    display: flex;
+    flex-direction: column;
+}
+#options{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.opt_pr{
+    margin-top: 50px;
+}
+.opt_pr h1{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+}
+.opt_pr p{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+}
+.opt_pr h1:hover{
+    color: blue;
+}
+#products{
+    display: none;
+    transition-duration: 1s;
+}

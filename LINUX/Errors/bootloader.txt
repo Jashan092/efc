@@ -1,0 +1,50 @@
+crypto@Quantum:~$ ls
+DECINE   Documents  index.html  nano.save  Public  Templates  Videos
+Desktop  Downloads  Music       Pictures   snap    Tor
+crypto@Quantum:~$ cd /
+crypto@Quantum:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+crypto@Quantum:/$ cd boot
+crypto@Quantum:/boot$ ls
+config-5.8.0-43-generic      memtest86+.elf
+config-5.8.0-48-generic      memtest86+_multiboot.bin
+efi                          System.map-5.8.0-43-generic
+grub                         System.map-5.8.0-48-generic
+initrd.img                   vmlinuz
+initrd.img-5.8.0-43-generic  vmlinuz-5.8.0-43-generic
+initrd.img-5.8.0-48-generic  vmlinuz-5.8.0-48-generic
+initrd.img.old               vmlinuz.old
+memtest86+.bin
+crypto@Quantum:/boot$ cd efi
+bash: cd: efi: Permission denied
+crypto@Quantum:/boot$ sydi
+sydi: command not found
+crypto@Quantum:/boot$ sudo su
+[sudo] password for crypto: 
+root@Quantum:/boot# cd efi
+root@Quantum:/boot/efi# ls
+EFI
+root@Quantum:/boot/efi# cd EFI/
+root@Quantum:/boot/efi/EFI# ls
+BOOT  BOOT.bak  kali  qubes  ubuntu
+root@Quantum:/boot/efi/EFI# cd kali
+root@Quantum:/boot/efi/EFI/kali# s
+s: command not found
+root@Quantum:/boot/efi/EFI/kali# ls
+grubx64.efi
+root@Quantum:/boot/efi/EFI/kali# cd ..
+root@Quantum:/boot/efi/EFI# ls
+BOOT  BOOT.bak  kali  qubes  ubuntu
+root@Quantum:/boot/efi/EFI# cd qubes
+root@Quantum:/boot/efi/EFI/qubes# ls
+xen-4.8.5-30.fc25.efi
+root@Quantum:/boot/efi/EFI/qubes# cd ..
+root@Quantum:/boot/efi/EFI# ls
+BOOT  BOOT.bak  kali  qubes  ubuntu
+root@Quantum:/boot/efi/EFI# ls ubuntu
+BOOTX64.CSV  grub.cfg  grubx64.efi  mmx64.efi  shimx64.efi
+root@Quantum:/boot/efi/EFI# 
+
+
